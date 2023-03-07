@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -13,35 +13,76 @@
     />
 
     <title>Frontend Mentor | Results summary component</title>
-
-   
   </head>
   <body>
     <div class="main">
-      <div class="result">
-        <h4>Your Result</h4>
-        <div>76 of 100</div>
-        <h2>Great</h2>
-        <p>
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
+      <div class="score-section">
+        <div class="result">
+          <span>Your Result</span>
+          <div class="score-circle">
+            <span class="main-score">76</span>
+            <span class="out-off">of 100</span>
+          </div>
+          <span>Great</span>
+          <p>
+            You scored higher than 65% of <br />
+            the people who have taken <br />
+            these tests.
+          </p>
+        </div>
+        <div class="summary">
+          <ul>
+            <li><span>Summary</span></li>
+            <li class="detail-score">
+              <div>
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt=""
+                  srcset=""
+                /><span>Reaction</span>
+              </div>
+              <div>80 / 100</div>
+            </li>
+            <li class="detail-score">
+              <div>
+                <img
+                  src="./assets/images/icon-memory.svg"
+                  alt=""
+                  srcset=""
+                /><span>Memory</span>
+              </div>
+              <div>92 / 100</div>
+            </li>
+            <li class="detail-score">
+              <div>
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt=""
+                  srcset=""
+                /><span>Verbal</span>
+              </div>
+              <div>61 / 100</div>
+            </li>
+            <li class="detail-score">
+              <div>
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt=""
+                  srcset=""
+                /><span>Visual</span>
+              </div>
+              <div>72 / 100</div>
+            </li>
+          </ul>
+          <button>Continue</button>
+        </div>
       </div>
-      <div class="summary">
-        <ul>
-          <li>Summary Reaction 80 / 100</li>
-          <li>Memory 92 / 100</li>
-          <li>Verbal 61 / 100</li>
-          <li>Visual 72 / 100</li>
-        </ul>
-        <button>Continue</button>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Vignesh</a>.
       </div>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Vignesh</a>.
     </div>
   </body>
 </html>
