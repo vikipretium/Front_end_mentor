@@ -21,9 +21,18 @@
   padding: 0;
   font-family: "Hanken Grotesk", sans-serif;
 }
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: auto;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
